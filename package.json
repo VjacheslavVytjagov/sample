@@ -1,0 +1,16 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "sample description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo WOW",
+    "start": "node index.js",
+    "postinstall": "echo POST_INSTALL > d:/log.txt",
+    "prepublish": "echo PREPUBLISH > d:/log.txt",
+    "prepublishOnly": "echo PREPUBLISH_ONLY > d:/log.txt",
+    "prepare": "echo PREPARE > d:/log.txt"
+  },
+  "author": "i am",
+  "license": "ISC"
+}
